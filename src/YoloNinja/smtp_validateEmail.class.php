@@ -174,7 +174,8 @@ class SMTP_validateEmail
 			{
 				// connect to SMTP server
 				$this->debug("try $host:$this->port\n");
-				if($this->sock = fsockopen($host, $this->port, $errno, $errstr, (float) $timeout))
+				$this->sock = @fsockopen($host, $this->port, $errno, $errstr, (float) $timeout);
+				if(is_resource($this->sock))
 				{
 					stream_set_timeout($this->sock, $this->max_read_time);
 					break;
@@ -238,6 +239,13 @@ class SMTP_validateEmail
 				$this->send("quit");
 				// close socket
 				fclose($this->sock);		
+			}
+			else
+			{
+				foreach($users as $user)
+				{
+					$results[$user.'@'.$domain] = false;								
+				}
 			}
 		}
 		return $results;

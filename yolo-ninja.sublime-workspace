@@ -523,7 +523,23 @@
 			"file": "examples/example1.php",
 			"settings":
 			{
-				"buffer_size": 890,
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/YoloNinja/smtp_validateEmail.class.php",
+			"settings":
+			{
+				"buffer_size": 5779,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 495,
 				"line_ending": "Unix"
 			}
 		}
@@ -688,6 +704,7 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/yolo-ninja/.gitignore",
 		"/Applications/MAMP/htdocs/yolo-ninja/smtp_validateEmail.class.php",
 		"/Applications/MAMP/htdocs/junglejobs/composer.json",
 		"/Applications/MAMP/htdocs/junglejobs/vendor/intervention/image/.gitignore",
@@ -814,8 +831,7 @@
 		"/Applications/MAMP/htdocs/junglejobs/app/database/migrations/2014_01_13_232732_create_job_table.php",
 		"/Applications/MAMP/htdocs/junglejobs/app/views/employer/cards/index.blade.php",
 		"/Applications/MAMP/htdocs/junglejobs/app/controllers/Employer/PricingController.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/config/pricing.php",
-		"/Applications/MAMP/htdocs/dallas/htdocs/public/spike/css/main.less"
+		"/Applications/MAMP/htdocs/junglejobs/app/config/pricing.php"
 	],
 	"find":
 	{
@@ -1138,7 +1154,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1146,20 +1162,75 @@
 					"file": "examples/example1.php",
 					"settings":
 					{
-						"buffer_size": 890,
+						"buffer_size": 919,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								116,
+								116
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/YoloNinja/smtp_validateEmail.class.php",
+					"settings":
+					{
+						"buffer_size": 5779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3370,
+								3370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2527.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "composer.json",
+					"settings":
+					{
+						"buffer_size": 495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
