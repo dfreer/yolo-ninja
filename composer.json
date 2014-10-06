@@ -14,5 +14,5 @@
         "classmap": [
             "src/YoloNinja/smtp_validateEmail.class.php"
         ]
-    },
+    }
 }
