@@ -10,7 +10,7 @@ namespace YoloNinja;
  * @contributers adnan@barakatdesigns.net
  * @version 0.1a
  */
-sdf
+
 class SMTP_validateEmail
 {
 
