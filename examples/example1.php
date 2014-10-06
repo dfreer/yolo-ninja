@@ -1,5 +1,11 @@
 <?php
-    
+
+namespace YoloNinja\Example;
+
+use YoloNinja\SMTP_validateEmail;
+
+require __DIR__ . '/../vendor/autoload.php';
+
 /**
  * Example 1
  * Validate a single Email via SMTP
@@ -7,7 +13,7 @@
 
 
 // include SMTP Email Validation Class
-require_once('smtp_validateEmail.class.php');
+//require_once('smtp_validateEmail.class.php');
 
 // the email to validate
 $email = 'user@example.com';
@@ -28,6 +34,3 @@ if ($results[$email]) {
 } else {
   echo 'The email addresses you entered is not valid';
 }
-
-
-?>
