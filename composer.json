@@ -1,0 +1,13 @@
+{
+    "name": "dfreer/yolo-ninja",
+    "description": "This is a direct copy from code posted on Google code. (https://code.google.com/p/php-smtp-email-validation/)",
+    "license": "Creative Commons 3.0",
+    "authors": [
+        {
+            "name": "Derek",
+            "email": "dfreer@upper90creative.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
