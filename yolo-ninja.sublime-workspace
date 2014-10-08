@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"is_",
+				"is_array"
+			],
+			[
 				"stripe",
 				"stripe_token"
 			],
@@ -510,39 +514,11 @@
 			[
 				"Auth",
 				"Auth	Laravel: Auth::user()"
-			],
-			[
-				"blank",
-				"blankSummary"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "examples/example1.php",
-			"settings":
-			{
-				"buffer_size": 919,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/YoloNinja/smtp_validateEmail.class.php",
-			"settings":
-			{
-				"buffer_size": 5779,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "composer.json",
-			"settings":
-			{
-				"buffer_size": 495,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -704,6 +680,10 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/yolo-ninja/examples/example1.php",
+		"/Applications/MAMP/htdocs/yolo-ninja/composer.json",
+		"/Applications/MAMP/htdocs/yolo-ninja/src/YoloNinja/smtp_validateEmail.class.php",
+		"/Applications/MAMP/htdocs/yolo-ninja/src/YoloNinja/SMTP_validateEmail.php",
 		"/Applications/MAMP/htdocs/yolo-ninja/.gitignore",
 		"/Applications/MAMP/htdocs/yolo-ninja/smtp_validateEmail.class.php",
 		"/Applications/MAMP/htdocs/junglejobs/composer.json",
@@ -827,11 +807,7 @@
 		"/Applications/MAMP/htdocs/junglejobs/app/views/jobs/show.blade.php",
 		"/Applications/MAMP/htdocs/junglejobs/app/views/employer/buy-credits/index.blade.php",
 		"/Applications/MAMP/htdocs/junglejobs/app/views/common/flash-messages.blade.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/lib/macros.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/database/migrations/2014_01_13_232732_create_job_table.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/views/employer/cards/index.blade.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/controllers/Employer/PricingController.php",
-		"/Applications/MAMP/htdocs/junglejobs/app/config/pricing.php"
+		"/Applications/MAMP/htdocs/junglejobs/app/lib/macros.php"
 	],
 	"find":
 	{
@@ -1154,90 +1130,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "examples/example1.php",
-					"settings":
-					{
-						"buffer_size": 919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/YoloNinja/smtp_validateEmail.class.php",
-					"settings":
-					{
-						"buffer_size": 5779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3370,
-								3370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2527.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "composer.json",
-					"settings":
-					{
-						"buffer_size": 495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								492,
-								492
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

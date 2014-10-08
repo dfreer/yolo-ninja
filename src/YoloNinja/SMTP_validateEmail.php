@@ -11,7 +11,7 @@ namespace YoloNinja;
  * @version 0.1a
  */
 
-class SMTP_validateEmail
+class SMTP_ValidateEmail
 {
 
 	/**
