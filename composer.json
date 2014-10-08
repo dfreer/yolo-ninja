@@ -1,6 +1,6 @@
 {
     "name": "dfreer/yolo-ninja",
-    "description": "This is a direct copy from code posted on Google code. (https://code.google.com/p/php-smtp-email-validation/)",
+    "description": "This started as a clone from https://code.google.com/p/php-smtp-email-validation/ and has evolved into something else.",
     "license": "Creative Commons 3.0",
     "authors": [
         {
@@ -12,7 +12,7 @@
     "require": {},
     "autoload": {
         "classmap": [
-            "src/YoloNinja/smtp_validateEmail.class.php"
+            "src/YoloNinja/SMTP_validateEmail.php"
         ]
     }
 }

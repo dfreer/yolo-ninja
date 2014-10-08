@@ -102,6 +102,7 @@ class SMTP_validateEmail
 	*/
 	function setEmails($emails)
 	{
+		if( ! is_array($emails)) $emails = array($emails);
 		foreach($emails as $email)
 		{
 			list($user, $domain) = $this->_parseEmail($email);
